@@ -47,6 +47,7 @@ img {
    border: 3px solid var(--primary-color);
    border-radius: 4px;
    padding: 1rem;
+   max-width: 50%;
 }
 
 .card h2 {
