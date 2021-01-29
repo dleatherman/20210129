@@ -1,0 +1,55 @@
+:root {
+   --primary-color: limegreen;
+   --btn-color: #ff0000;
+   --btn-text: #fff;
+   --primary-font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+   background: #000;
+   color: #fff;
+   font-family: var(--primary-font-family);
+   font-size: 16px;
+}
+
+h1 {
+   color: var(--primary-color);
+}
+
+p {
+   color: var(--primary-color);
+}
+
+button {
+   background-color: var(--btn-color);
+   color: var(--btn-text);
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+}
+
+/* Helper Classes */
+
+.primary-heading {
+   font-size: 4rem;
+}
+
+.background-white {
+   background-color: #fff;
+   color: #000;
+}
+
+/* Card Component */
+
+.card {
+   border: 3px solid var(--primary-color);
+   border-radius: 4px;
+   padding: 1rem;
+}
+
+.card h2 {
+   color: pink;
+   text-align: center;
+}
